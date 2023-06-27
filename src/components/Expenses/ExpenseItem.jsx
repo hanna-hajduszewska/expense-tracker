@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import './ExpenseItem.css';
-import ExpenseDate from './ExpenseDate';
-import Card from './CArd';
+import ExpenseDate from '../ExpenseDate';
+import Card from '../UI/Card';
 
 const ExpenseItem = (props) => {
 	return (

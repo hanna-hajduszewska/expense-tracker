@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
-import Card from './CArd';
+import Card from '../UI/Card';
 
 const Expenses = (props) => {
 	return (
