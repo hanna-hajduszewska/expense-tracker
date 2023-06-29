@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import './ExpenseItem.css';
-import ExpenseDate from '../ExpenseDate';
 import Card from '../UI/Card';
+import ExpenseDate from './ExpenseDate';
 
 const ExpenseItem = (props) => {
 	return (
@@ -11,6 +11,7 @@ const ExpenseItem = (props) => {
 				<h2>{props.title}</h2>
 				<div className="expense-item__price">${props.amount}</div>
 			</div>
+			<button>Change title</button>
 		</Card>
 	);
 };
